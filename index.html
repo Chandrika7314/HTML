@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>shopping online</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            background-color: brown;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+        }
+        footer{
+            background-color: brown;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+        }
+        section{
+            height: 500px;
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+            margin-top: 100px;
+            font-size: medium;
+        }
+        iframe{
+            height: 375px;;
+            width:100% ;
+            border: none;
+
+        }
+        ul{
+            list-style: none;
+            margin-left: 30px;
+        }
+        li{
+            font-size: 20px;
+            background-color: brown;
+            color: aliceblue;
+            padding: 5px;
+            border: 2px solid;
+            margin-bottom: 20px;
+            border-radius: 10px;
+
+        }
+        a{
+            color: aliceblue;
+            
+        }
+    
+        
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1><span class="bi bi-cart4 "></span>Amazon shopping online</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="framebody">home</a></li>
+                    <li><a href="electronics.html" target="framebody"> electronics</a></li>
+                    <li><a href="footwear.html" target="framebody">footwear </a></li>
+                    <li><a href="faschion.html"target="framebody"> faschion</a></li>
+                </ul>
+
+            </nav>
+            <main>
+                <iframe name="framebody" src="home.html"></iframe>
+
+            </main>
+        </section>
+        <footer>
+            <div>&copy; copyright 2021</div>
+        </footer>
+    </body>
+</html>
